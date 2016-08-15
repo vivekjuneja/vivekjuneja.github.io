@@ -9,20 +9,20 @@ permalink:        pretty
 # Setup
 title:            Back to Basics 
 tagline:          'Going deep into Technology'
-description:      'Test A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+description:      'A ride deep into the basics of Container, Orchestration, Cloud Platforms, DevOps, Microservices, Resilience Engineering and anything that makes distributed systems work'
+url:              http://vivekjuneja.github.io
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Vivek Juneja'
+  url:            https://twitter.com/vivekjuneja
 
 paginate:         1 
 
 # Custom vars
-version:          2.1.0
+version:          0.0.1
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/vivekjuneja
 
 gems: [jekyll-gist, jekyll-paginate]

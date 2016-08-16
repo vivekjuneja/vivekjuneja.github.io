@@ -38,4 +38,4 @@ version:          0.0.1
 github:
   repo:           https://github.com/vivekjuneja
 
-gems: [jekyll-gist, jekyll-paginate]
+gems: [jekyll-gist, jekyll-paginate, jekyll-last-modified-at]

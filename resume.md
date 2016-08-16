@@ -1,0 +1,15 @@
+---
+layout: resume
+title: Resume
+---
+
+
+{% include employment.html %}
+
+{% include education.html %}
+
+{% include skills.html %}
+
+{% include initiatives.html %}
+
+{% include interests.html %}

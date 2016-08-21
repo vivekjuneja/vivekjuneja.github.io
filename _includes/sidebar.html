@@ -26,18 +26,10 @@
         {% endif %}
       {% endfor %}
 
-       {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "resume" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
+            <a class="sidebar-nav-item{% if page.url == "/resume/" %} active{% endif %}" href="/resume/">Resume</a>
+            
 
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">Code</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">Writing</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">Work</a>
       <span class="sidebar-nav-item">Last Updated {{ page.last_modified_at | date: "%d-%b-%Y" }}</span>
     </nav>
 

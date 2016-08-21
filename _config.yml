@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
@@ -9,7 +9,7 @@ permalink:        pretty
 # Setup
 title:            Journey into the Unknown 
 tagline:          'A journey deep into the heart of the Unknown'
-description:      'I love technology, the mystery of human mind, Artificial Intelligence, behaviorial economics, design thinking and the chance to build things that people love. This is my account of the journey into my interests.'
+description: 	  'The account of my journey into the unknown'
 url:              http://vivekjuneja.github.io
 baseurl: /
 name: Vivek Juneja

@@ -15,7 +15,14 @@ For me, the fun was to be able to run a mini-cluster that would serve Docker con
 
 Let us start with the specs first. 
 
+![placeholder](https://www.raspberrypi.org/magpi/wp-content/uploads/2016/02/IMG_40901.jpg
+ "Raspberry Pi")
+
 <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/">RPi 3 offers</a>: 64 bit Quad-core ARMv8 CPU, 1.2 Ghz and 1 GB RAM
+
+![placeholder](http://static.techspot.com/images2/news/ts3_thumbs/2015/12/2015-12-09-ts3_thumbs-9bb.jpg
+ "Pine64")
+
 
 <a href="https://www.pine64.com/faq-pine-64#toggle-id-4">Pine64 offers</a>: 64 bit Quad-core Cortex A53 CPU 1.2 Ghz and 2 GB RAM
 

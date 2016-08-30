@@ -39,3 +39,5 @@ github:
   repo:           https://github.com/vivekjuneja
 
 gems: [jekyll-gist, jekyll-paginate, jekyll-last-modified-at]
+
+google_analytics: UA-83374110-1

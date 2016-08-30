@@ -106,8 +106,9 @@ Together with the <a href="https://mmonit.com/">M/Monit</a> dashboard, it is pos
 
 The next target for me is to test out a distributed application containing a proxy and load balancer, web servers, application server and a database. It would be good to deploy these services in a redundant and highly available mode, and then use Docker swarm to test the resilience of the cluster. 
 
-<iframe src="https://player.vimeo.com/video/180603848" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/180603848">Running Docker Swarm on Pine64 cluster</a> from <a href="https://vimeo.com/user4434842">vivek juneja</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+Here is a short glimpse of what the container deployments looks like from a Swarm cluster consisting of 3 Pine64 boards :-
+
+<iframe src="https://player.vimeo.com/video/180607383" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/180607383">Docker Swarm Cluster using Pine64 ARM board</a> from <a href="https://vimeo.com/user4434842">vivek juneja</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 In the next installment of this post, I will deploy the distributed application on the cluster, and also put some screencasts visualizing the performance of the cluster. 
 

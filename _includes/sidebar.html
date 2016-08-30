@@ -28,9 +28,9 @@
 
             <a class="sidebar-nav-item{% if page.url == "/resume/" %} active{% endif %}" href="/resume/">Resume</a>
             
-
+ 
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">Code</a>
-      <span class="sidebar-nav-item">Last Updated {{ page.last_modified_at | date: "%d-%b-%Y" }}</span>
+      <span class="sidebar-nav-item">Last Updated {{ site.last_modified_at | date: "%d-%b-%Y" }}</span>
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>

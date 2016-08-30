@@ -18,20 +18,20 @@ Let us start with the specs first.
 ![placeholder](https://www.raspberrypi.org/magpi/wp-content/uploads/2016/02/IMG_40901.jpg
  "Raspberry Pi")
 
-<a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/">RPi 3 offers</a>: 64 bit Quad-core ARMv8 CPU, 1.2 Ghz and 1 GB RAM
+<a target="_blank" href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/">RPi 3 offers</a>: 64 bit Quad-core ARMv8 CPU, 1.2 Ghz and 1 GB RAM
 
 ![placeholder](http://static.techspot.com/images2/news/ts3_thumbs/2015/12/2015-12-09-ts3_thumbs-9bb.jpg
  "Pine64")
 
 
-<a href="https://www.pine64.com/faq-pine-64#toggle-id-4">Pine64 offers</a>: 64 bit Quad-core Cortex A53 CPU 1.2 Ghz and 2 GB RAM
+<a target="_blank" href="https://www.pine64.com/faq-pine-64#toggle-id-4">Pine64 offers</a>: 64 bit Quad-core Cortex A53 CPU 1.2 Ghz and 2 GB RAM
 
 In total, we have over 16-core CPU and 7 GB RAM in this cluster. 
 
 ![placeholder](https://dl.dropboxusercontent.com/s/xanyjw303p68r55/ARMCluster-Page11.jpeg?dl=0
  "cluster config")
 
-I installed the <a href="http://blog.hypriot.com/downloads/">Hypriot Docker Debian package</a> for Raspberry Pi on the Raspbian operating system. Alternatively, one can use the <a href="http://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/">Hypriot OS</a> to install a working image having Docker installed and configured on the RPi device. 
+I installed the <a target="_blank" href="http://blog.hypriot.com/downloads/">Hypriot Docker Debian package</a> for Raspberry Pi on the Raspbian operating system. Alternatively, one can use the <a target="_blank" href="http://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/">Hypriot OS</a> to install a working image having Docker installed and configured on the RPi device. 
 
 We use Docker Swarm to manage the cluster. We use the Raspberry Pi to run the Docker Swarm Manager. For the Swarm cluster, we will use Consul as the Service Discovery backend. The following command starts the consul server in bootstrap mode, meaning it will not work as cluster. This is good only for development use, and not recommended for Production. 
 
@@ -47,7 +47,7 @@ We will now start the Swarm Manager. The following command will start the Swarm 
 docker run -d -p 4000:4000 swarm manage -H :4000 --advertise 192.168.99.100:4000 consul://<consul-host-ip>:8500
 {% endhighlight %}
 
-Next, we would need to install Docker on Pine64 board. We use the pine64 ubuntubase image based on the longsleep kernel. I downloaded this image from <a href=
+Next, we would need to install Docker on Pine64 board. We use the pine64 ubuntubase image based on the longsleep kernel. I downloaded this image from <a target="_blank" href=
 "https://www.pine64.pro/getting-started-linux/"
 >https://www.pine64.pro/getting-started-linux/</a> The exact version is 3.10.65 BSP, dated April 24 2016. The link has all the details to install the OS Image on the pine64 board. I had no issues installing the image, and was fairly simple to setup.
 
@@ -90,7 +90,7 @@ docker -H :4000 run -e reschedule:on-node-failure -p 3000:3000 hypriot/rpi-pytho
 
 The above command runs a Python container on the cluster, and exposes port 3000 on the container host. The Swarm manager schedules the container to run on the cluster. 
 
-I also used the <a href="https://github.com/kevana/ui-for-docker">Docker UI</a> project to manage the swarm cluster, and provides a simple Web UI to visualize the basic adminstration tasks for the cluster. One can also use the project <a href="https://github.com/bfirsh/swarm-viz">Swarm Viz</a> to visualize the swarm cluster, and display how the containers are laid out on the cluster. Its a simple visualization, that adds to the appeal of the running a container cluster. 
+I also used the <a target="_blank" href="https://github.com/kevana/ui-for-docker">Docker UI</a> project to manage the swarm cluster, and provides a simple Web UI to visualize the basic adminstration tasks for the cluster. One can also use the project <a target="_blank" href="https://github.com/bfirsh/swarm-viz">Swarm Viz</a> to visualize the swarm cluster, and display how the containers are laid out on the cluster. Its a simple visualization, that adds to the appeal of the running a container cluster. 
 
 
 I also added Monit agent on each Docker host to gather the monitoring information. The M/Monit Dashboard can be installed to collect the monitoring information from all the Monit agents. 
@@ -102,15 +102,19 @@ start_port=5000; for i in `seq 1 1000`; do port=$((start_port+i)); echo $port; d
 {% endhighlight %}
 
 
-Together with the <a href="https://mmonit.com/">M/Monit</a> dashboard, it is possible to identify how the above command leads to change in performance of the cluster. One can identify the cpu and memory performance on issuing the load on the cluster. 
+Together with the <a target="_blank" href="https://mmonit.com/">M/Monit</a> dashboard, it is possible to identify how the above command leads to change in performance of the cluster. One can identify the cpu and memory performance on issuing the load on the cluster. 
 
 The next target for me is to test out a distributed application containing a proxy and load balancer, web servers, application server and a database. It would be good to deploy these services in a redundant and highly available mode, and then use Docker swarm to test the resilience of the cluster. 
 
 Here is a short glimpse of what the container deployments looks like from a Swarm cluster consisting of 3 Pine64 boards :-
 
-<iframe src="https://player.vimeo.com/video/180607383" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/180607383">Docker Swarm Cluster using Pine64 ARM board</a> from <a href="https://vimeo.com/user4434842">vivek juneja</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<iframe src="https://player.vimeo.com/video/180607383" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a target="_blank" href="https://vimeo.com/180607383">Docker Swarm Cluster using Pine64 ARM board</a> from <a target="_blank" href="https://vimeo.com/user4434842">vivek juneja</a> on <a target="_blank" href="https://vimeo.com">Vimeo</a>.</p>
 
 In the next installment of this post, I will deploy the distributed application on the cluster, and also put some screencasts visualizing the performance of the cluster. 
 
+Credits :-
 
+1. Ubuntu on Pine64 :- <a target="_blank" href="https://www.pine64.pro/getting-started-linux/">https://www.pine64.pro/getting-started-linux/</a>
+
+2. Docker on Raspberry Pi :- <a target="_blank" href="http://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/">http://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/</a>
 

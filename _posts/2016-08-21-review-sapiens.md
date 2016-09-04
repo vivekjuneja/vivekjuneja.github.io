@@ -1,10 +1,7 @@
 ---
 layout: post
 title: What I learned from Sapiens, a brief history of Mankind
-tags:
-- book
-- review
-- learning
+category: book, review, learning
 ---
 
 

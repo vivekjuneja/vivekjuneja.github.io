@@ -1,13 +1,7 @@
 ---
 layout: post
 title: Disrupting a Large Organization
-tags:
-- cloud
-- design
-- platform
-- lean
-- devops
-category: devops
+category: devops, cloud, design, lean
 ---
 
 ![placeholder](https://vivekjuneja.files.wordpress.com/2015/03/revolution-large-enterprise.jpg?w=660

@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Using Docker to build a Computing cluster with ARM devices
+tags:
+- arm
+- docker
+- cloud
+- cluster
+- experiment
 ---
 
 For most part of last decade, ARM architecture has become a mainstream, thanks to widespread adoption of low-power devices, and IoT boom. However, for a significant part of the history, the x86 architecture has dominated the scene, especially with the large heavy-weight public cloud vendors behind them. There were clear boundaries between these two giants. Intel x86 dominating the server class, and desktop / laptop space. The ARM on the other hand, dominating the low-power embedded space, not to mention the maker space, especially with the advent of Raspberry Pi devices. These giants also, represent a clear division in their core philosophy and processor architecture type. x86 preferring the Complex instructions, and larger vocabulary set to perform operations, and ARM preferring the alternative RISC architecture. 

@@ -3,6 +3,13 @@ layout: page
 title: About
 ---
 
+![placeholder](https://avatars0.githubusercontent.com/u/122003?v=3&s=460
+ "Profile photo")
+
+<p class="message">
+ I am Vivek Juneja.
+</p>
+
 <p class="message">
   I am a technologist who has a deep interest in enabling technology work for good. I love learning, and helping others be empowered to use technology for their creative pursuit. 
 

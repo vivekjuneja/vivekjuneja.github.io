@@ -89,7 +89,7 @@ tags:
 
 <p>
 Some capabilities include :-
-
+</p>
 1. Project Management
 
 2. On-demand Infrastructure
@@ -100,10 +100,8 @@ Some capabilities include :-
 
 5. Service Governance
 
-</p>
-
 <p>
-I think arriving at a model similar to this, is essential for a long term plan to restructure organization into smaller independent teams, that deliver on the promise of DevOps, Agile and Microservices.
+I think arriving at a model similar to this, is essential for a long term plan to restructure an organization into smaller independent teams, that deliver on the promise of DevOps, Agile and Microservices.
 </p>
 
 <p>

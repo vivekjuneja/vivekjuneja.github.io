@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The real cost of Change - Perspectives of adopting the DevOps, Microservices and Container Bandwagon 
-category: container, devops, microservices, cloud, organization
+category: devops
 ---
 
 ![placeholder](https://vivekjuneja.files.wordpress.com/2016/04/shipping-containers.jpg?w=660 "shipping containers")

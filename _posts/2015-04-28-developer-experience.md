@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creating a Good Experience
-category: developer, cloud, devops, productivity
+category: devops
 ---
 
 ![placeholder](https://vivekjuneja.files.wordpress.com/2015/04/developer-experience.jpg?w=660

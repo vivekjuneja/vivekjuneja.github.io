@@ -1,11 +1,7 @@
 ---
 layout: post
 title: A model for building Service Teams inside a technology organization
-tags:
-- organization
-- microservices
-- agile
-- devops
+category: organization, devops, microservices
 ---
 
 <p>

@@ -7,6 +7,7 @@ tags:
 - platform
 - lean
 - devops
+category: devops
 ---
 
 ![placeholder](https://vivekjuneja.files.wordpress.com/2015/03/revolution-large-enterprise.jpg?w=660

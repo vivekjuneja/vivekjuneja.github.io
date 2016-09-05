@@ -106,6 +106,9 @@ Credits :-
 
 1. <a target="_blank" href="https://dl.dropboxusercontent.com/u/1018963/Articles/SpotifyScaling.pdf">Service teams at Spotify</a>
 2. <a target="_blank" href="http://blog.jasoncrawford.org/two-pizza-teams">Two Pizza teams at Amazon</a>
+2. <a target="_blank" href="https://tech.zalando.de/blog/why-do-we-have-autonomous-teams/">Autonomous teams at Zalando</a>
+
+
 
 
 

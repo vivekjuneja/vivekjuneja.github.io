@@ -10,24 +10,30 @@ One of the common ingredient to Microservices based development is the need for 
 
 As new services get built and released, it increasingly becomes difficult to understand and visualize the various services and their dependencies. Each service also has its own timeline and roadmap, and this ideally should not become a bottleneck for the system to operate. The need of the hour is to provide consistent building blocks to the service development teams in order to manage the chaos and rapidly build or change services with minimum or no interruptions. 
 
-
 This Solution stack is a congregation of key ideas needed to support the continuous development of services by independent teams. It brings together key tools, technologies and practices that make service oriented teams empowered. It aims to increase ownership in teams by reducing the cost of taking risks and infusing innovation.
 
 Let us look at key concerns that the Solution stack will intend to resolve :-
 
-1. Allow Developers to quickly get started with a service development project without wasting time on setting development environment, test harness, test environments and build-release practice.
+1. Allow Developers to quickly get started with a service development project without wasting time on setting development environment, test harness, test environments and build-release practice. Much of this includes scaffolding and boilerplate projects that are used to avoid re-inventing the wheel. 
 
-2. Each Service Development project needs to be configured with the development toolchain like Versioning, Build tools, Deployment tools, Testing and Monitoring tools among others.
+2. Each Service Development project needs to be configured with the development toolchain including Versioning, Build tools, Deployment tools, Testing and Monitoring tools among others.
 
 3. The architecture and design governance rules including use of standard patterns like Timeouts, API response types, Circuit Breaker, Security Policies etc. need to be applied to the relevant service development
 
 4. Allow Service Development team to build changes into their service reliably without worrying about breaking other dependent services
+
 5. Service Development team to operate and maintain their services in Production and can quickly react to events of failure or degraded performance
+
 6. Team can deploy their service independent of the infrastructure, be it Public cloud or Physical data center or Developer Laptop
+
 7. Developers can perform Integration testing locally by having a snapshot of the entire application on their local development environment
+
 8. Freedom to choose new languages and frameworks for the choice of development / replacement of a service without impacting the expectations of the application and other participating services
+
 9. Release new experimental features in Production along side existing functionalities without breaking the release or impacting user experience
+
 10. Ability to perform A/B Testing for new functionalities or changes to a service by progressively adding load to the service
+
 11. Teams can maintain service level agreements (SLA) and assign threshold to their service to maintain operational behavior of the service they own
 Service Development teams have access to unified monitoring, logging and analytics for their service
 
@@ -114,22 +120,6 @@ A Package and Configuration Management is a system that allows for installing th
 Service Validator and Governance Engine is a tool that allows for enforcing standard guidelines to all services built and published. This allows for a consistency to be maintained in a distributed service oriented environment. New rules could be added or old rules could be removed at any point of time. This Engine is used while build and release cycle for all Service development teams. A Team could also use this tool for local development to check if any service built by the team is non-compliant to the said governance rules. The enforcement happens through a process of monitoring and code inspection, along with metadata that is collected from a published service. For example: A service image used by a team can have a open SSH port to all, which could be a potential security breach. Similarly, a Service could be using an old Service Mock that is currently or deprecated. The Service Validator and Governance Engine can work with the Service Notification engine notifying the Service Development team on any non-compliance or slippage, and issue warnings. At some stage, the Validator and Governance can auto correct the configuration itself provide some set of self-healing capability to an application runtime. This allows it to take proactive steps to prevent future failure. 
 
 
-## Key Tenets of the Solution
-
-The following are the key tenets of the Solution :-
-
-1. Must be IaaS agnostic. The Solution can work on any infrastructure - Virtualized, Non-virtualized, Public or Private Cloud
-
-2. The Solution Stack can be extended to support any framework or language runtime
-New Service Policies or Governance rules can be added at any point of time
-
-3. The Solution Stack must not be strongly coupled with the Architecture of the Service oriented Application using it
-
-4. Any component of part of the Solution Stack can be replaced with a new technology or new implementation
-
-5. Each Component of the Solution Stack is independently usable, testable and deployable
-
-6. Must allow support for Application Feature Flags, Rolling Deployments, A/B Testing etc. for modern Microservices based development
 
 
 

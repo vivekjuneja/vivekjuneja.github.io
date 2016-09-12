@@ -14,15 +14,14 @@ The core idea for us was to build a solution stack that allows development teams
 
 This Solution stack is a congregation of key ideas needed to support the continuous development of services by independent teams. It brings together key tools, technologies and practices that make service oriented teams empowered. It aims to increase ownership in teams by reducing the cost of taking risks and infusing innovation.
 
-Some aspects of what Microservices Solution stack are similar to the traditional monolith stack like Continuous Integration and Application deployment. However, with many number of distributed independent services operating at scale in a Microservices Solution, these aspects are greatly advertised and become more complicated to manage. 
-
-For example:- A Continuous Integration pipeline for a Monolith requires a big bang integration which takes too long and slows down the development process. Worse, if a change is only focussed in one part of the Monolith, it still requires building the entire Monolith. This disappoints the development team into the benefit of CI and reduces confidence in the process, thereby leading to non-compliance. In a Microservices Solution however, continuous integration can be triggered for the particular Microservice thereby preventing big bang integration and increases the speed of development process.
-
-Let us look at key concerns that will help drive this transformation :-
+Let us look at key concerns that the Solution stack will intend to resolve :-
 
 1. Allow Developers to quickly get started with a service development project without wasting time on setting development environment, test harness, test environments and build-release practice.
+
 2. Each Service Development project needs to be configured with the development toolchain like Versioning, Build tools, Deployment tools, Testing and Monitoring tools among others.
+
 3. The architecture and design governance rules including use of standard patterns like Timeouts, API response types, Circuit Breaker, Security Policies etc. need to be applied to the relevant service development
+
 4. Allow Service Development team to build changes into their service reliably without worrying about breaking other dependent services
 5. Service Development team to operate and maintain their services in Production and can quickly react to events of failure or degraded performance
 6. Team can deploy their service independent of the infrastructure, be it Public cloud or Physical data center or Developer Laptop

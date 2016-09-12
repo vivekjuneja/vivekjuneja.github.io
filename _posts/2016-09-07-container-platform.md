@@ -10,7 +10,6 @@ One of the common ingredient to Microservices based development is the need for 
 
 As new services get built and released, it increasingly becomes difficult to understand and visualize the various services and their dependencies. Each service also has its own timeline and roadmap, and this ideally should not become a bottleneck for the system to operate. The need of the hour is to provide consistent building blocks to the service development teams in order to manage the chaos and rapidly build or change services with minimum or no interruptions. 
 
-The core idea for us was to build a solution stack that allows development teams to manage the entire lifecycle or building or changing service implementation at a rapid scale and independently.
 
 This Solution stack is a congregation of key ideas needed to support the continuous development of services by independent teams. It brings together key tools, technologies and practices that make service oriented teams empowered. It aims to increase ownership in teams by reducing the cost of taking risks and infusing innovation.
 

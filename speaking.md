@@ -5,6 +5,14 @@ title: Speaking
 
 <br /><br />
 
+{% include open_container_korea_2016.html %}
+
+<br /><br />
+
+{% include mesoscon_asia_2016.html %}
+
+<br /><br />
+
 {% include mobile-technology-summit.html %}
 
 <br /><br />

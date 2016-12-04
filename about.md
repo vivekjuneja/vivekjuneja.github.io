@@ -35,6 +35,10 @@ title: About
   My interests lie in Software Development, Technology Evangelism, Artificial Intelligence, Human Psychology, Behaviorial Economics and Lean Startups.
 </p>
 
+<p style="color:white">
+I love bubu !
+</p>
+
 
 Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/vivekjuneja/vivekjuneja.github.io/issues/new) or [ask me on Twitter](https://twitter.com/vivekjuneja).
 

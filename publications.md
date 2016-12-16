@@ -3,6 +3,11 @@ layout: page
 title: Publications 
 ---
 
+
+<br /><br />
+
+{% include newstack-ebook5.html %}
+
 <br /><br />
 
 {% include newstack-ebook4.html %}

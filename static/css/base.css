@@ -267,3 +267,10 @@
 	.add-bottom { margin-bottom: 20px !important; }
 
 
+#botoes li{
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+    vertical-align: top;
+}
+

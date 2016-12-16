@@ -142,3 +142,11 @@ footer p {
     margin-bottom: 10px;
     font-size: 10pt;
 }
+
+
+#botoes li{
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+    vertical-align: top;
+}

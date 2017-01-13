@@ -3,7 +3,6 @@ layout: resume
 title: Resume
 ---
 
-{% include resume-download.html %}
 
 {% include employment.html %}
 

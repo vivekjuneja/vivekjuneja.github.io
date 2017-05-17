@@ -26,7 +26,7 @@ title: About
 
   As of 2015, I am embracing my time tinkering with technologies around Containers and Cloud Platforms. I am currently helping to move legacy web services onto modern platforms. 
 
-  I use to work in Seoul, a city on the cusp of revolution leading the way how modern societies will embrace and influence technology. 
+  I used to work in Seoul, a city on the cusp of revolution leading the way how modern societies will embrace and influence technology. 
   
   I am moving out of Seoul this summer to embark upon a new journey. My focus for 2017 : Artificial Intelligence, Cognitive Psychology, Productive Teams and Leadership. 
 

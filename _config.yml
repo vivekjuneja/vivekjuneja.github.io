@@ -16,8 +16,8 @@ baseurl: /
 name: Vivek Juneja
 email: vivekjuneja@gmail.com
 email_full: mailto:vivekjuneja@gmail.com
-website: https://cloudgeek.in
-website_full: https://cloudgeek.in
+website: https://www.vivekjuneja.in
+website_full: https://www.vivekjuneja.in
 github: trending
 twitter: vivekjuneja
 tel: +82
@@ -39,7 +39,7 @@ version:          0.0.1
 github:
   repo:           https://github.com/vivekjuneja
 
-gems: [jekyll-gist, jekyll-paginate, jekyll-last-modified-at]
+gems: [jekyll-gist, jekyll-paginate, jekyll-last-modified-at, jekyll-twitter-plugin]
 
 google_analytics: UA-83374110-1
 

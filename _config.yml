@@ -7,6 +7,7 @@ permalink:        pretty
 # relative_permalinks: true
 
 # Setup
+root: /
 title_part_one:            Journey into the
 title_part_two:            Unknown 
 tagline:          'A journey deep into the heart of the Unknown'

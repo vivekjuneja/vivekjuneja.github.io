@@ -248,3 +248,18 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+
+  
+.gr_grid_container {
+          /* customize grid container div here. eg: width: 500px; */
+        }
+
+        .gr_grid_book_container {
+          /* customize book cover container div here */
+          float: left;
+          width: 98px;
+          height: 160px;
+          padding: 0px 0px;
+          overflow: hidden;
+        }

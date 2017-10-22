@@ -13,12 +13,12 @@ title_part_two:            Unknown
 tagline:          'A journey deep into the heart of the Unknown'
 description: 	  ''
 url: http://vivekjuneja.github.io
-baseurl: "/" 
+site.baseurl: /
 name: Vivek Juneja
 email: vivekjuneja@gmail.com
 email_full: mailto:vivekjuneja@gmail.com
-website: https://cloudgeek.in
-website_full: https://cloudgeek.in
+website: https://vivekjuneja.in
+website_full: https://vivekjuneja.in
 github: trending
 twitter: vivekjuneja
 tel: +82

@@ -11,10 +11,8 @@ title_part_one:            Journey into the
 title_part_two:            Unknown 
 tagline:          'A journey deep into the heart of the Unknown'
 description: 	  ''
-#url:              http://vivekjuneja.github.io
-url: http://vivekjuneja.in
-github.url: https://vivekjuneja.github.io
-baseurl: "/"
+url: http://vivekjuneja.github.io
+baseurl: /
 name: Vivek Juneja
 email: vivekjuneja@gmail.com
 email_full: mailto:vivekjuneja@gmail.com

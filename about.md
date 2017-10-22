@@ -24,11 +24,9 @@ title: About
 </p>
 <p class="message">
 
-  As of 2015, I am embracing my time tinkering with technologies around Containers and Cloud Platforms. I am currently helping to move legacy web services onto modern platforms. 
-
   I used to work in Seoul, a city on the cusp of revolution leading the way how modern societies will embrace and influence technology. 
   
-  I am moving out of Seoul this summer to embark upon a new journey. My focus for 2017 : Artificial Intelligence, Cognitive Psychology, Productive Teams and Leadership. 
+  I am now in Berlin, helping engineering teams become better everyday. On the side, I tinker with low-power devices that host containerized workloads running Machine Learning algorithms. 
 
 </p>
 <p class="message">

@@ -2,10 +2,10 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="{{ site.baseurl }}" style="font-family: 'Roboto', monospace;">
+        <a href="/" style="font-family: 'Roboto', monospace;">
           {{ site.title_part_one }}
         </a>
-         <a href="{{ site.baseurl }}" style="font-family: 'Roboto', sans-serif; ">
+         <a href="/" style="font-family: 'Roboto', sans-serif; ">
           {{ site.title_part_two }}
         </a>
       </h1>
@@ -13,7 +13,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/">Home</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with

@@ -1,0 +1,14 @@
+Hard problems with K8s
+
+Even with kubeadm and a team of 6 you can’t get upstream K8s production ready in 6 months. We tried. 
+
+Hard Problems:
+- High Availability
+- Single Sign On
+- Multitennancy
+- Resource Isolation
+- Permission Management
+- Upgrades
+- Backups
+- Package Management
+- CI/CD Integration

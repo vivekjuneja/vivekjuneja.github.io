@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vivekjuneja-blog
+  labels:
+    app: jekyll-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jekyll-server
+  template:
+    metadata:
+      labels:
+        app: jekyll-server
+    spec:
+      containers:
+      - name: jekyll-server
+        image: vivekjuneja/blog:1
+        ports:
+        - containerPort: 4000

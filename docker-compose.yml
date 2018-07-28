@@ -1,0 +1,7 @@
+version: '3.3'
+
+services:
+  web:
+    image: vivekjuneja/blog:1
+    ports:
+     - "4000:4000"

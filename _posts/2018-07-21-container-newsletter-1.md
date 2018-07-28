@@ -4,8 +4,7 @@ title: Container and Cloud - Newsletter for the week
 category: newsletter
 ---
 
-![placeholder](https://raw.githubusercontent.com/vivekjuneja/vivekjuneja.github.io/master/images/writing.jpg
- "A Log Dashboard")
+![placeholder](https://vivekjuneja.files.wordpress.com/2016/04/shipping-containers.jpg?w=660 "shipping containers")
 
 
 1.  <a target="_blank" href="https://www.infoq.com/articles/Graal-Java-JIT-Compiler?utm_medium=email&utm_source=topic+optin&utm_campaign=awareness&utm_content=20180721+prog+nl&mkt_tok=eyJpIjoiT0RrMU5URmxPVEF6TWpreCIsInQiOiIrOGtTUDRGdkRPb0gwZ2ZsTGIxUm4wdlwvXC9oREJmbmhHVXAySEdYRkF6Tmk0Q2NEcnBoVXl1clpZZnNVUXhoeXA2U1wvTnk5cGVjQjR3YUFMaStOSG5DWkZIRGo4MXZVMGxUcGQzMGx2Rjl2dG9uamk2eDlCaDFxcTk4NGtkT2xpcyJ9">Getting to Know Graal, the New Java JIT Compiler</a>
@@ -28,10 +27,5 @@ Nabla introduces a new approach to container isolation by blocking system calls,
 
 
 7. <a target="_blank"  href="https://www.infoq.com/presentations/netflix-titus?utm_source=presentations_about_Containers&utm_medium=link&utm_campaign=Containers">A Series of Unfortunate Container Events @Netflix</a>
-
-Also worth mentioning :-
-
-1. <a target="_blank"  href="https://programmingisterrible.com/post/173883533613/code-to-debug">Write code that’s easy to delete, and easy to debug too.</a>
-
-
+A fantastic journey into the development of Titus scheduler and container infrastructure at Netflix. The session goes into the details of various incidents and issues that the team had to face as they scaled their container infrastructure. I really like how Netflix addressed the container security problems with respect to cases when potentially containers do not respect the system boundaries and compromise the host. Overall, I see learning around staffing, API management and fail safe mechanisms. If you are considering setting up similar infrastructure in your team / organization, the information in the talk is worth every penny. 
 

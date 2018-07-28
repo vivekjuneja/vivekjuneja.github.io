@@ -16,16 +16,20 @@ category: newsletter
 	This is an interesting post mortem that is connected to how engineers release new features in production. New features are released in production, but are often behind feature flags that are turned off to prevent the feature being used. This is ideally performed as there could be dependency for this new feature (like a backend service) that may not ready in time. This allows engineers to move fast without waiting for features to remain in branch (unmerged) when an implementation is ready and tested. Google would fix this in long term as identified in the article by creating a consolidated dashboard for all config changes for the service in question. 
 
 3. <a target="_blank"  href="https://github.com/GoogleContainerTools/kaniko">Kaniko is a tool to build container images from a Dockerfile, inside a container or Kubernetes cluster</a>
+
 If you have a CI and CD Pipeline that builds container images to deploy on the various environments, we need to have access to Docker daemon with root privileges. On Kubernetes, this could be a problem, as we need to either mount Docker socket in the "Container image creation" container, or use the DinD (docker in docker) approach. Providing root privilege just to build a container image could lead to security hole, and breaks the least privilege principle. Kaniko is an alternative to Docker build process that does not need Docker daemon, and can run in user space which means no more root access. This allows secure container build processes, and is Kubernetes friendly. Do try it out. 
 
 
 4. <a target="_blank"  href="https://github.com/prometheus/prometheus/blob/master/documentation/internal_architecture.md">Internal architecture of Prometheus</a>
+
 A beautiful example of documentation for newbies to an existing codebase. I would love to use this format for my existing and future projects. Not only it opens up the scope for contribution by others, its a good example of how not to overdo an introductory documentation for a project. It took me not more 30 min. to go over this, and jump between the code, to have a decent understanding of Prometheus codebase. 
 
 5. <a target="_blank"  href="https://nabla-containers.github.io/">Nabla containers: a new approach to container isolation</a>
+
 Nabla introduces a new approach to container isolation by blocking system calls, and therefore reducing the surface vector to as minimal as possible. This leads to minimal containers that are restrictive in what they could do. This project comes from IBM Research, and uses Unikernel techniques to reduce the number of system calls to just 9. If lean and highly secure containers are your thing, this project is worth looking into. 
 
 
 7. <a target="_blank"  href="https://www.infoq.com/presentations/netflix-titus?utm_source=presentations_about_Containers&utm_medium=link&utm_campaign=Containers">A Series of Unfortunate Container Events @Netflix</a>
+
 A fantastic journey into the development of Titus scheduler and container infrastructure at Netflix. The session goes into the details of various incidents and issues that the team had to face as they scaled their container infrastructure. I really like how Netflix addressed the container security problems with respect to cases when potentially containers do not respect the system boundaries and compromise the host. Overall, I see learning around staffing, API management and fail safe mechanisms. If you are considering setting up similar infrastructure in your team / organization, the information in the talk is worth every penny. 
 

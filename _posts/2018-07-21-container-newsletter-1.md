@@ -6,7 +6,6 @@ category: newsletter
 
 ![placeholder](https://vivekjuneja.files.wordpress.com/2016/04/shipping-containers.jpg?w=660 "shipping containers")
 
-
 1.  <a target="_blank" href="https://www.infoq.com/articles/Graal-Java-JIT-Compiler?utm_medium=email&utm_source=topic+optin&utm_campaign=awareness&utm_content=20180721+prog+nl&mkt_tok=eyJpIjoiT0RrMU5URmxPVEF6TWpreCIsInQiOiIrOGtTUDRGdkRPb0gwZ2ZsTGIxUm4wdlwvXC9oREJmbmhHVXAySEdYRkF6Tmk0Q2NEcnBoVXl1clpZZnNVUXhoeXA2U1wvTnk5cGVjQjR3YUFMaStOSG5DWkZIRGo4MXZVMGxUcGQzMGx2Rjl2dG9uamk2eDlCaDFxcTk4NGtkT2xpcyJ9">Getting to Know Graal, the New Java JIT Compiler</a>
 
 	GraalVM was announced by Oracle as a replacement for HotSpot VM for Java. A part of this is the Graal JIT compiler for Hotspot, and a new Polyglot VM (GraalVM). Graal JIT Compiler is written in Java and uses new JVM compiler interface (JVMCI). This compiler is expected to outperform AOT (Ahead of Time) compilers like GCC or Go compiler. The GraalVM offers the ability to fully embed polyglot languages in apps build with Java, which is an alternative to JSR 223. I really enjoyed this article that goes deep into the workings of this new JIT compiler and VM, proving that innovation is still happening in Java world. 

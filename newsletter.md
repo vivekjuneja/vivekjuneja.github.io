@@ -3,6 +3,25 @@ layout: page
 title: Newsletter
 ---
 
+
+<div class="related">
+  <h2>Past newsletters</h2>
+  <ul class="related-posts">
+    {% assign posts = site.categories["newsletter"] %}
+    {% for post in posts %}
+      <li>
+        <h3>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_string }}</small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+
 <div class="posts">
 <p>
    <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/vivekjuneja" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/vivekjuneja', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p>
@@ -25,20 +44,4 @@ I will keep your information private, and will NEVER ever SPAM you with anything
 
 Happy Reading !
 
-<div class="related">
-  <h2>Past newsletters</h2>
-  <ul class="related-posts">
-    {% assign posts = site.categories["newsletter"] %}
-    {% for post in posts %}
-      <li>
-        <h3>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
 

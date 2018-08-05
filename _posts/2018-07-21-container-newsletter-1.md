@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Container and Cloud - Newsletter for the week 
+title: Container and Cloud - Newsletter for the week Edition 1
 category: newsletter
 ---
 

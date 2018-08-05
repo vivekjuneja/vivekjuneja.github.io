@@ -41,9 +41,9 @@ version:          0.0.1
 github:
   repo:           https://github.com/vivekjuneja
 
-gems: [jekyll-gist, jekyll-paginate, jekyll-last-modified-at]
+gems: [jekyll-gist, jekyll-paginate, jekyll-last-modified-at, jekyll-youtube]
 
 google_analytics: UA-83374110-1
 
-last_modified_at:	21-July-2018
+last_modified_at:	05-07-2018
 

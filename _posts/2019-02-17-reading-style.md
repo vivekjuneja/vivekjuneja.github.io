@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Changing your reading style
+title: Books as blog posts
 tags:
 - reading
 - blog

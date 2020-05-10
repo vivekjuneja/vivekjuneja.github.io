@@ -38,6 +38,6 @@ In the world of endless information sources, what remains hard for me is to find
 
 Happy Reading !
 
- <img src='../images/newsletter.JPG' alt=''>
+ <img src='../images/inyourshoes.png' alt=''>
 
 

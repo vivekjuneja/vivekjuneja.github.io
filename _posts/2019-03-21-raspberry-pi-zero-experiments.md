@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Demo: Building a personal ToDo dashboard using Raspberry Pi Zero 
+title: Building a personal ToDo dashboard using Raspberry Pi Zero 
 tags:
 - experiment
 - iot

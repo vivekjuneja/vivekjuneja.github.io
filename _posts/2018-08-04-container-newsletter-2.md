@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Container and Cloud - Newsletter for the week Edition 2
-category: newsletter
+category: newsletter_old
 ---
 
 ![placeholder](https://vivekjuneja.files.wordpress.com/2016/04/shipping-containers.jpg?w=660 "shipping containers")

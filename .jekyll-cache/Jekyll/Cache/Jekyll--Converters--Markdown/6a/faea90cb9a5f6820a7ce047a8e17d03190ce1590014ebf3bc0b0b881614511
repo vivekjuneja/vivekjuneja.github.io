@@ -1,0 +1,132 @@
+I"¯<section class="thirteen columns">
+    <h1>Employment</h1>
+    <article>
+        <header>
+            <h2>Engineering Manager</h2>
+            <span><address><a href="http://www.zalando.de" target="blank">Zalando</a>, Berlin, Germany</address><time>2017 to Present</time></span>
+        </header>
+        <p>I lead the engineering teams in the Zalando Fashion store. My responsibilities include software delivery management, people management and driving the technical roadmap. </p>
+    </article>    
+    <article>
+        <header>
+            <h2>Lead Engineer (Container Platform)</h2>
+            <span><address><a href="http://company.gsshop.com/en/" target="blank">GS Shop</a>, Seoul, South Korea</address><time>2015 to 2017</time></span>
+        </header>
+        <p>Lead the development efforts of an Enterprise Platform as a service, built around Containers. My responsibilities include architecture, design, product roadmap, tool evaluation and implementation of continuous delivery infrastructure. </p>
+            <span><time><b>Technologies: </b>Python, Go, Docker, Mesos, Marathon, HAProxy, Jenkins, ELK, Git</time></span>
+
+    </article>
+    <article>
+        <header>
+            <h2>Software Architect (E-Commerce)</h2>
+            <span><address><a href="http://company.gsshop.com/en/" target="blank">GS Shop</a>, Seoul, South Korea</address><time>2013 to 2015</time></span>
+        </header>
+        <p>Led the development efforts of a next generation B2B2C e-commerce platform in Korea. My responsibilities include architecture, design, product roadmap, and supporting infrastructure. </p>
+            <span><time><b>Technologies: </b>Java, Kafka, Spring, Jenkins, MongoDB, SVN</time></span>
+
+    </article>
+    <article>
+        <header>
+            <h2>Technical Lead (Cloud and Mobility)</h2>
+            <span><address><a href="http://www.thbs.com/" target="blank">Torry Harris</a>, Bangalore, India</address><time>2011 to 2013</time></span>
+        </header>
+        <p>Led the development efforts for multiple cloud services adoption by varied customers. Helped implement mobile apps with cloud backend services. My responsibilities include research, design and implementation of solutions. I also helped with training engineers with different cloud and mobile technology stacks. </p>
+            <span><time><b>Technologies: </b>Java, AWS, Android, MongoDB, Cloudstack</time></span>
+
+    </article>
+    <article>
+        <header>
+            <h2>Lead Engineer (Cloud Services)</h2>
+            <span><address><a href="http://www.thbs.com/" target="blank">Torry Harris</a>, Bangalore, India</address><time>2010 to 2011</time></span>
+        </header>
+        <p>Owned the implementation of a cloud platform to provide on-demand dev and test environments for developers. My responsibilities include architecture, design, implementation of the platform system. I also helped the developers to use the platform to provision the environments. 
+        </p>
+            <span><time><b>Technologies: </b>Python, Eucalyptus, AWS, Java</time></span>
+
+    </article>
+    <article>
+        <header>
+            <h2>Engineer (Software Services)</h2>
+            <span><address><a href="http://www.thbs.com/" target="blank">Torry Harris</a>, Bangalore, India</address><time>2006 to 2010</time></span>
+        </header>
+        <p> Worked as a software developer across multiple projects for customers across varied domains: manufacturing, finance and e-governance.
+        </p>
+            <span><time><b>Technologies: </b>Java, Spring, Hibernate, Oracle, Javascript</time></span>
+
+    </article>
+</section>
+
+<section class="thirteen columns">
+    <h1>Education</h1>
+    <article>
+        <header>
+            <h2>Bachelor of Engineering (Computer Science)</h2>
+            <span><a href="https://en.wikipedia.org/wiki/Visvesvaraya_Technological_University" target="blank">Visvesvaraya Technological University</a></span>
+            <span><address>Bangalore, India</address><time>2002 to 2006</time></span>
+        </header>
+            <span><time>Project: Natural Language Interface to UNIX OS</time></span>
+        
+    </article>
+</section>
+
+<section class="thirteen columns">
+    <h1>Programming Skills</h1>
+    <article>
+        <header>
+            <h2>Software engineering</h2>
+        </header>
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+            &nbsp;&nbsp;<em>Python, Java, Shell Script</em>
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+            &nbsp;&nbsp;<em>Jenkins, Docker, Mesos, Marathon, Git</em>
+        </p>
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i>
+            &nbsp;&nbsp;<em>Kibana, Nginx, HAProxy, AWS, Logstash</em>
+        </p>
+ 
+
+<section class="thirteen columns">
+    <h1>Initiatives</h1>
+    <article>
+        <header>
+            <h2>Founder, AWS User Group</h2>
+            <span><address>Bangalore, India</address><time>2011</time></span>
+        </header>
+        <p>
+            Formed the <a href="http://www.meetup.com/awsugblr/" target="blank">second largest AWS User group</a> in the world with over 2000 members. Helped the group by taking technical sessions, formed growth strategies, managed events and community outreach.
+        </p>
+    </article>
+    <article>
+        <header>
+            <h2>Microsoft Student Partner</h2>
+            <span><address>Sapthagiri College of Engineering, Bangalore, India</address><time>2004</time></span>
+        </header>
+        <p>
+            Worked as the <a href="https://en.wikipedia.org/wiki/Microsoft_Student_Partners" target="blank">student representative</a> for Microsoft to conduct events and activities around .NET platform. Helped engineering students understand .NET Platform by conducting demos and workshops.
+        </p>
+    </article>
+    <article>
+        <header>
+            <h2>Founder, Technical Club</h2>
+            <span><address>Sapthagiri College of Engineering, Bangalore, India</address><time>2013</time></span>
+        </header>
+        <p>
+            Formed a <a href="http://fci.wikia.com/wiki/Bangalore/SCE" target="blank">student group</a> to conduct demos, workshops and competitions around emerging technologies. Helped the group to associate with leading technology communities like INETA and O'Reilly UG. 
+        </p>
+    </article>
+</section>
+
+<section class="thirteen columns">
+    <h1>Hobbies</h1>
+    <article>
+        <p>Music, Reading, Programming, Travelling, Cooking.</p>
+    </article>
+</section>
+
+
+
+</p></article></section>
+:ET

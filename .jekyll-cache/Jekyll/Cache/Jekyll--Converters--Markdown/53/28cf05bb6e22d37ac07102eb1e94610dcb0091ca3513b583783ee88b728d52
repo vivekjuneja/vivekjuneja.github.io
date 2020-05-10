@@ -1,0 +1,108 @@
+I"i<p>
+ The buzzwords around DevOps, microservices and service oriented teams have forced organizations to rethink their ways. The hardest part is to invent techniques that would help the organization to create structures that could embrace the uncertainities and complexities of service oriented teams. A large Monolithic team, is assumed to be coherent and can work well when the organization is small. 
+
+ When the system complexity exceeds the communication costs within a team, it is best to rethink how it operates. 
+
+ The key drivers for independent service team is to be able to have :-
+</p>
+
+<ol>
+  <li>Full ownership of the planning, prioritization, implementation and delivery of the services.</li>
+  <li>Responsible for all actions and outcomes of the services, thereby gaining deep knowledge about the domain and particulars of the service</li>
+  <li>Freedom to make decisions, good and bad. This allows teams to learn what works, and what doesn’t, thereby making them in control of the fate of the service</li>
+  <li>Accountable of their actions, especially when things go bad. This allows them to take the responsibility as a double edged sword.</li>
+</ol>
+
+<p>
+ Taking the above aspects into account, an Independent service must deliver in return of the benefits of having ownership, responsibility, freedom and accountability. 
+
+ For organizations, attempting this move, certain set of capabilities are needed that would help the teams to remain independent. 
+
+</p>
+<p><img src="https://dl.dropboxusercontent.com/s/7ktgrhovu0bg8pc/slide1.jpg?dl=0" alt="placeholder" title="Slide 1" /></p>
+
+<p>
+ Each such capability is composed of processes, products, practices and culture (or people). Organizations require to work upon building these capabilities, in order to provide them as framework to teams. Using these capabilities, it is possible for the teams to remain independent. More importantly, these capabilities help in the time of crisis, when teams struggle, especially when the ghosts of past haunt the newly formed independence. We will define the concept of Capability shortly. 
+</p>
+
+<p>
+ Before that, let us understand define the concept of a Service. 
+</p>
+
+<p><img src="https://dl.dropboxusercontent.com/s/7s0zxh0az3tk4z5/slide2.jpg?dl=0" alt="placeholder" title="Slide 2" /></p>
+
+<p> 
+ The concept of Bounded context is nicely explained by Martin Fowler. A Bounded context encapsulates the common functionalities that go hand-in-hand to deliver value. Moreover bounded contexts also have a shared change perimeter, meaning the changes are usually concentrated inside the context. Bounded Contexts must expose APIs that allow them to be consumed by other contexts. 
+</p>
+
+<p><img src="http://martinfowler.com/bliki/images/boundedContext/sketch.png" alt="placeholder" title="Bounded Context" /></p>
+
+<p>From: <a href="http://martinfowler.com/bliki/BoundedContext.html">Martin Fowler Bliki</a></p>
+
+<p>
+ A service team then is defined as following :-
+</p>
+
+<p><img src="https://dl.dropboxusercontent.com/s/fn9lg55so0ywzub/slide3.jpg?dl=0" alt="placeholder" title="Slide 3" /></p>
+
+<p>
+ What makes a Service team independent from others ?
+
+ Before we arrive at the capabilities that organization needs, it is prudent to understand the features that define a single service team. A Service team should be able to have access to a range of features, that keeps them independent. 
+</p>
+
+<p><img src="https://dl.dropboxusercontent.com/s/eh69etno1781ao1/slide4.jpg?dl=0" alt="placeholder" title="Slide 4" /></p>
+
+<p>
+ Apart from features, Service teams also have access to certain shared expertise and concerns that operate in an organization. These shared expertise and concerns remain outside the teams. The reason to have them shared, is to allow these concerns to continuously evolve without getting locked-in with each service's team scope. 
+ These concerns are shared assets inside an organization that require strategic investment and forethought. 
+</p>
+
+<p><img src="https://dl.dropboxusercontent.com/s/imbw4f20vjft0zw/slide5.jpg?dl=0" alt="placeholder" title="Slide 5" /></p>
+
+<p>
+ Let us come back to Capabilities.
+</p>
+
+<p>
+ Capabilities are strategic, long-term skills that need deep investment and vision within the organization. One or more such capabilities provide the ability for teams to gain features. Such features allow the teams to remain independent, and deliver on their responsibility.
+</p>
+
+<p><img src="https://dl.dropboxusercontent.com/s/wxid3gi4c1b14k9/slide6.jpg?dl=0" alt="placeholder" title="Slide 6" /></p>
+
+<p>
+Some capabilities include :-
+</p>
+<ol>
+  <li>
+    <p>Project Management</p>
+  </li>
+  <li>
+    <p>On-demand Infrastructure</p>
+  </li>
+  <li>
+    <p>Build, Deployment and Release</p>
+  </li>
+  <li>
+    <p>Quality Assurance</p>
+  </li>
+  <li>
+    <p>Service Governance</p>
+  </li>
+</ol>
+
+<p>
+I think arriving at a model similar to this, is essential for a long term plan to restructure an organization into smaller independent teams, that deliver on the promise of DevOps, Agile and Microservices.
+</p>
+
+<p>
+Credits :-
+</p>
+
+<ol>
+  <li><a target="_blank" href="https://dl.dropboxusercontent.com/u/1018963/Articles/SpotifyScaling.pdf">Service teams at Spotify</a></li>
+  <li><a target="_blank" href="http://blog.jasoncrawford.org/two-pizza-teams">Two Pizza teams at Amazon</a></li>
+  <li><a target="_blank" href="https://tech.zalando.de/blog/why-do-we-have-autonomous-teams/">Autonomous teams at Zalando</a></li>
+</ol>
+
+:ET

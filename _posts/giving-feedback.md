@@ -27,3 +27,4 @@ Once the person has read through the document, I ask them for first impressions.
 - Was there something that stood out for them ?
 - Is there a feedback that they would like to go into specifics ?
 
+

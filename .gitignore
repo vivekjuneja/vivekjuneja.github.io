@@ -3,3 +3,4 @@ _site
 .jekyll-metadata
 Dockerfile
 .DS_Store
+.jekyll-cache

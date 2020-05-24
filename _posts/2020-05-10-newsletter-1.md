@@ -15,7 +15,7 @@ tags:
 
 <div class='pixels-photo'>
   <p>
-    <img style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 150px;" src='../images/inyourshoes.png' alt=''>
+    <img style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 150px;" src='/images/inyourshoes.png' alt=''>
   </p>
 </div>
 

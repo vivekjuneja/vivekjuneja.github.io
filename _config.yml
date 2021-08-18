@@ -41,7 +41,7 @@ version:          0.0.1
 github:
   repo:           https://github.com/vivekjuneja
 
-gems: [jekyll-gist, jekyll-paginate, jekyll-last-modified-at, jekyll-youtube]
+gems: [jekyll-gist, jekyll-paginate, jekyll-last-modified-at, jekyll-youtube, nokogiri]
 
 google_analytics: UA-83374110-1
 

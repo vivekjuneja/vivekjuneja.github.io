@@ -1,5 +1,4 @@
-I"û
-<p>I have been receiving queries from folks who have embraced the Docker for Mac lately. They would like to access the location on the Docker host where a Container file system is located. According to Docker -</p>
+I"¹<p>I have been receiving queries from folks who have embraced the Docker for Mac lately. They would like to access the location on the Docker host where a Container file system is located. According to Docker -</p>
 <blockquote>
   <p>A containerâ€™s thin writable layer is stored in a directory under /var/lib/docker/aufs/diff/. With Docker 1.10 and higher, container IDs no longer correspond to directory names.</p>
 </blockquote>
@@ -10,36 +9,36 @@
   <li>
     <p>To access the file system of a particular Container, first, let us get the Container ID using the inspect command on the Docker Host.</p>
 
-    <p><code class="highlighter-rouge">docker inspect --format  &lt;Container Name&gt;</code></p>
+    <p><code class="language-plaintext highlighter-rouge">docker inspect --format  &lt;Container Name&gt;</code></p>
   </li>
   <li>
     <p>Use the Alpine Docker image and mount your Host file system to the container</p>
 
-    <p><code class="highlighter-rouge">docker run --rm -it -v /:/vm-root alpine:edge sh</code></p>
+    <p><code class="language-plaintext highlighter-rouge">docker run --rm -it -v /:/vm-root alpine:edge sh</code></p>
 
     <p>We need the ID of this container. So, you could combine the step 1 and 2 with the following</p>
 
-    <p><code class="highlighter-rouge">docker run --rm -it -e CONTAINER_ID=$(docker inspect --format  &lt;Container Name&gt;) -v /:/vm-root alpine:edge sh</code></p>
+    <p><code class="language-plaintext highlighter-rouge">docker run --rm -it -e CONTAINER_ID=$(docker inspect --format  &lt;Container Name&gt;) -v /:/vm-root alpine:edge sh</code></p>
 
     <p>Now we have the CONTAINER_ID set as an environment variable in the alpine container.</p>
   </li>
   <li>
     <p>Once you are in the alpine container, you can visit the following directory</p>
 
-    <p><code class="highlighter-rouge">cd /vm-root/var/lib/docker</code></p>
+    <p><code class="language-plaintext highlighter-rouge">cd /vm-root/var/lib/docker</code></p>
   </li>
   <li>
     <p>Inside this directory, you will be able to access all the familiar files that you are used to when administering Docker</p>
   </li>
   <li>
-    <p>Now, we need to find the <code class="highlighter-rouge">mount-id</code> for the selected container to access the file system directories. We will use the CONTAINER_ID environment variable obtained in step 2. I have AUFS as my file system driver for the this example. To do that, use the following command.</p>
+    <p>Now, we need to find the <code class="language-plaintext highlighter-rouge">mount-id</code> for the selected container to access the file system directories. We will use the CONTAINER_ID environment variable obtained in step 2. I have AUFS as my file system driver for the this example. To do that, use the following command.</p>
 
-    <p><code class="highlighter-rouge">MOUNT_ID=$(cat /vm-root/var/lib/docker/image/aufs/layerdb/mounts/$CONTAINER_ID/mount-id)</code></p>
+    <p><code class="language-plaintext highlighter-rouge">MOUNT_ID=$(cat /vm-root/var/lib/docker/image/aufs/layerdb/mounts/$CONTAINER_ID/mount-id)</code></p>
   </li>
   <li>
-    <p>The above step will give you the <code class="highlighter-rouge">mount-id</code>. Now you can access the file system of the container under <code class="highlighter-rouge">mnt</code> directory with the <code class="highlighter-rouge">mount-id</code></p>
+    <p>The above step will give you the <code class="language-plaintext highlighter-rouge">mount-id</code>. Now you can access the file system of the container under <code class="language-plaintext highlighter-rouge">mnt</code> directory with the <code class="language-plaintext highlighter-rouge">mount-id</code></p>
 
-    <p><code class="highlighter-rouge">ls -ltr /vm-root/var/lib/docker/aufs/mnt/$MOUNT_ID</code></p>
+    <p><code class="language-plaintext highlighter-rouge">ls -ltr /vm-root/var/lib/docker/aufs/mnt/$MOUNT_ID</code></p>
   </li>
 </ol>
 
